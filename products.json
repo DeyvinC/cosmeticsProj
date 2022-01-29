@@ -1,0 +1,18 @@
+[{
+    "Name": "Lipstick",
+    "Color": "Red",
+    "Price": 2,
+    "Id": "LS01" 
+},
+{
+    "Name": "EyeLiner",
+    "Color": "Black",
+    "Price": 3,
+    "Id": "EL01" 
+},
+{
+    "Name": "Nail Polish",
+    "Color": "Nude",
+    "Price": 2,
+    "Id": "NP01"
+}]

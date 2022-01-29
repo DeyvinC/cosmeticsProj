@@ -1,0 +1,22 @@
+{
+  "name": "cosmeticproj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dianasCos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeyvinC/cosmeticsProj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeyvinC/cosmeticsProj/issues"
+  },
+  "homepage": "https://github.com/DeyvinC/cosmeticsProj#readme",
+  "dependencies": {
+    "firebase-admin": "^10.0.2"
+  }
+}

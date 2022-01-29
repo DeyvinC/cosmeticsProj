@@ -1,18 +1,18 @@
 [{
-    "Customer Id": " ",
-    "Products" : [],
-    "Order Total": " " ,
+    "customerId": " ",
+    "products" : [],
+    "orderTotal": " " ,
     "Id": " "
 },
 {
-    "Customer Id": " ",
-    "Products" : [],
-    "Order Total": " " ,
+    "customerId": " ",
+    "products" : [],
+    "orderTotal": " " ,
     "Id": " "
 },
 {
-    "Customer Id": " ",
-    "Products" : [],
-    "Order Total": " " ,
+    "customerId": " ",
+    "products" : [],
+    "orderTotal": " " ,
     "Id": " "
 }]

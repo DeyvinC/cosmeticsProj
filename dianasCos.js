@@ -46,7 +46,7 @@ productsCol.add(products[0])
     console.log(error)
 ]);
 
-//add customer to customers collection
+// //add customer to customers collection
 customersCol.add(customers[0])
 .then(doc => [
     console.log('Added customer', doc.id)
@@ -69,7 +69,7 @@ customersCol.add(customers[2])
     console.log(err)
 ]);
 
-//add orders to orders collection
+// //add orders to orders collection
 ordersCol.add(orders[0])
 .then(doc => [
     console.log('Added order', doc.id)
@@ -92,7 +92,7 @@ ordersCol.add(orders[2])
     console.log(err)
 ]);
 
-// read one document
+// // read one document
 productsCol.doc('BSmGQwMFA4cZRQeIepnJ').get()
   .then(doc => {
     console.log(doc.id, ' => ', doc.data());
@@ -108,14 +108,16 @@ customersCol.get().then(querySnapshot =>{
 }).catch(err => console.error(err));
 
    
-// Update orders
+// // Update Customers
 
 customersCol.doc('CnX656QdDmtBv675Fw18').update({Email: 'vroas@gmail.com'})
  
-  
+// Update Orders
+
+ordersCol.doc('C9bLVQ6idQJ2onXlVjWe').update({customerId: 'Jen1245', products: 'LipStick'})
 
 
-// get all documents
+// // get all documents
 restRef.get()
   .then(snapshot => {
     snapshot.forEach(doc => {
